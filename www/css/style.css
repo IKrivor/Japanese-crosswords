@@ -43,6 +43,29 @@ ul{
     text-align: right;
 }
 
+/***************** Основная часть ************/
+#body{
+    width: 95%;
+    margin: 1% auto 0;
+    background-color: rgba(255,255,255,0.7);
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+.cross{
+    display: inline-block;
+    width: 33%;
+    height: 20%;
+    text-align: center;
+}
+.cross img{
+    width: 45%;
+    height: 45%;
+}
+.cross img:hover{
+    outline: 1px solid #000;
+}
+
 /***************** Футер *********************/
 footer{
     width: 95%;
