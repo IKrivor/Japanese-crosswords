@@ -9,9 +9,36 @@ body{
     width: 98%;
     height: 100%;
     margin: 0 auto;
-    float: left;
     background: url("/img/fon_1.jpg") no-repeat center fixed;
 }
 .clear{
     clear: both;
+}
+
+/**************** Шапка *****************/
+header{
+    width: 80%;
+    margin: 1% auto 0;
+    background-color: rgba(255,255,255,0.7);
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7)
+}
+ul{
+    list-style: none;
+}
+#mainMenu, #regAuth{
+    display: inline-block;
+}
+#mainMenu li, #regAuth li{
+    display: inline-block;
+}
+#mainMenu{
+    width: 79%;
+    text-align: center;
+    position: absolute;
+}
+#regAuth{
+    width: 100%;
+    text-align: right;
 }
