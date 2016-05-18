@@ -1,7 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 0000
- * Date: 03.05.2016
- * Time: 1:22
- */
+<!DOCTYPE html>
+<html>
+<head>
+    <?php
+    $title = "Правила";
+    require_once "blocks/head.php";
+    ?>
+</head>
+<body>
+<?php require_once "blocks/header.php" ?>
+
+
+<?php require_once "blocks/footer.php" ?>
+</body>
+</html>
