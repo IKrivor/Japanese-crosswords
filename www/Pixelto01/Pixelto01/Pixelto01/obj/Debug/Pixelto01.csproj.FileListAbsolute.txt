@@ -1,0 +1,16 @@
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.exe
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.pdb
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\bin\Debug\Pixelto01.exe
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\bin\Debug\Pixelto01.pdb
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.csprojResolveAssemblyReference.cache
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.PixeltoBinary.resources
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.Properties.Resources.resources
+C:\Users\Apofeo\Downloads\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.csproj.GenerateResource.Cache
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.exe
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.pdb
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\bin\Debug\Pixelto01.exe
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\bin\Debug\Pixelto01.pdb
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.csprojResolveAssemblyReference.cache
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.PixeltoBinary.resources
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.Properties.Resources.resources
+D:\Программы\Pixelto01\Pixelto01\Pixelto01\obj\Debug\Pixelto01.csproj.GenerateResource.Cache

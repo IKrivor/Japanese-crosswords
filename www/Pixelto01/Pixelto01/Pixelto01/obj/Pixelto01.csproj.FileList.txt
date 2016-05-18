@@ -1,0 +1,8 @@
+bin\Debug\Pixelto01.exe
+bin\Debug\Pixelto01.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pixelto01.Properties.Resources.resources
+obj\Debug\Pixelto01.csproj.GenerateResource.Cache
+obj\Debug\Pixelto01.exe
+obj\Debug\Pixelto01.pdb
+obj\Debug\Pixelto01.PixeltoBinary.resources
