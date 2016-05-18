@@ -11,4 +11,19 @@ function closeDB(){
     global $mysqli;
     $mysqli->close();
 }
+
+function getCross(){
+    global $mysqli;
+    connectDB();
+    $result = $mysqli->query("SELECT * FROM  `crosswords`");
+    closeDB();
+    return resultToArray($result);
+}
+
+function resultToArray($result){
+    $array = array();
+    while (($row = $result->fetch_assoc()) != false)
+        $array[] = $row;
+    return $array;
+}
 ?>
