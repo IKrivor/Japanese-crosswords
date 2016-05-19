@@ -12,12 +12,14 @@ function closeDB(){
     $mysqli->close();
 }
 
-function getCross(){
+function getCross($limit, $id){
     global $mysqli;
     connectDB();
-    $result = $mysqli->query("SELECT * FROM  `crosswords`");
+    if($id) $where = "WHERE `id` = ".$id;
+    $result = $mysqli->query("SELECT * FROM `crosswords` $where LIMIT $limit");
     closeDB();
-    return resultToArray($result);
+    if(!$id) return resultToArray($result);
+    else return $result->fetch_assoc();
 }
 
 function resultToArray($result){

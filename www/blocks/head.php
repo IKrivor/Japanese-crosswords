@@ -1,13 +1,11 @@
-<?php
-require_once "./functions/crossDB.php";
-?>
 <meta charset="utf-8">
-<title><?=$title?></title>
+<title><?=$title?> | Griddlers</title>
 <link href="/css/style.css" rel="stylesheet" type="text/css">
 <link href="css/bgslider.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
 <script type="text/javascript" src="js/bgstretcher.js"></script>
+<script type="text/javascript" src="js/anauthPlay.js"></script>
 
 <script type="text/javascript">
 

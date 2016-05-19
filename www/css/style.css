@@ -31,10 +31,10 @@ body{
 .clear{
     clear: both;
 }
-a {
+#mainMenu a {
     color: #000;
     text-decoration: none;
-    padding: 6px;
+    padding: 13px 6px;
     border-radius: 5px;
 }
 
@@ -104,7 +104,7 @@ a#next {
 .cross span {
     display: block;
     width: 60%;
-    margin: 1% 1% 1% 20%;
+    margin: 1% 1% 2% 20%;
     font-size: 35px;
     background-color: rgba(255,255,255,0.7);
     border-radius: 5px;
@@ -127,4 +127,74 @@ footer{
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0,0,0,0.7);
     font-size: 23px;
+}
+
+/************************* Страница кроссворда **********************/
+#leftOfGrid, #topAndBody{
+    display: inline-block;
+    margin-left: -5px;
+}
+#topOfGrid{
+    display: block;
+}
+div#grid {
+    text-align: center;
+    padding: 3% 0 1% 0;
+}
+.help_1, .help_2, .help_3{
+    display: inline-block;
+}
+.help_1, .help_2 {
+    background-color: rgba(255,255,255,0.7);
+    padding: 12px 22px;
+    border-radius: 51%;
+}
+a.help.help_3 {
+    background-color: rgba(255,255,255,0.7);
+    padding: 0 11px;
+    border-radius: 48%;
+    top: 6px;
+}
+div#underGrid {
+    text-align: center;
+}
+.help {
+    color: #000;
+    outline: none;
+    position: relative;
+    margin: 0 8%;
+    text-decoration: none;
+}
+
+/*положение всплывающей подсказки*/
+.help span {
+    margin-left: -999em;
+    position: absolute;
+}
+
+/*подсказка при наведении курсора*/
+.help:hover span {
+    font-family: m_acadianregular; /*шрифт*/
+    font-size: 18pt;
+    position: absolute; /*позиция*/
+    left: 10px;
+    top: 40px;
+    z-index: 99;
+    margin-left: 0;
+    width: 180px; /*ширина блока подсказки*/
+}
+
+/*параметры изображения*/
+.help:hover img {
+    border: 0;
+}
+
+/*блок всплывающей подсказки*/
+.airhelp {
+    cursor: default;
+    background: none repeat scroll 0 0 rgba(255,255,255,0.8); /*цвет и прозрачность фона*/
+    border: 1px solid #959595; /*параметры бордюра*/
+    border-radius: 5px; /*закругление углов*/
+    color: #000; /*цвет шрифта всплывающей подсказки*/
+    padding: 5px; /*внутренний отступ*/
 }

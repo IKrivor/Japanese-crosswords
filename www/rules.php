@@ -2,6 +2,7 @@
 <html>
 <head>
     <?php
+    require_once "./functions/crossDB.php";
     $title = "Правила";
     require_once "blocks/head.php";
     ?>
