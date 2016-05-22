@@ -244,3 +244,6 @@ form#register {
 #register input[type="submit"] {
     width: 50%;
 }
+div#er_mes {
+    font-size: 25px;
+}
