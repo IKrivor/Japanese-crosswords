@@ -9,4 +9,6 @@ function closeDB(){
 global $mysqli;
 $mysqli->close();
 }
+
+
 ?>

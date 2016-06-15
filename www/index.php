@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <?php
+<?php ob_start(); echo '<!DOCTYPE html>
+<html><head>';
     require_once "./functions/crossDB.php";
     $title = "Кроссворды";
     require_once "blocks/head.php";
     $cross = getCross(9, null);
-    ?>
-</head>
-<body>
-    <?php require_once "blocks/header.php" ?>    
+    echo '</head>
+<body>';
+
+     require_once "blocks/header.php" ?>
 
     <div id="body">
         <?php
